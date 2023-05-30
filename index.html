@@ -1,0 +1,1122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no">
+  <meta name="keywords" content="" />
+  <meta name="description" content="Welcome to Capital Physical Therapy and Fitness! People are our passion and we are striving to be the absolute best PT and personal training clinic not only in Charleston, but in the entire state of WV! Our mission is to help patients and clients meet their rehab and fitness goals faster and with more cost effectiveness than your average clinic." />
+  <meta name="subject" content="Physical Therapy">
+  <meta name="copyright" content="Capital Physical Therapy & Fitness">
+  <meta name="language" content="ES">
+  <meta name="robots" content="index,follow" />
+  <meta name="Classification" content="Business">
+  <meta name="author" content="KDE Technology">
+  <meta name="designer" content="KDE Technology">
+  <meta name="owner" content="Capital Physical Therapy & Fitness">
+  <meta name="url" content="https://capitalptandfitness.com">
+  <meta name="identifier-URL" content="https://www.capitalptandfitness.com">
+  <meta name="directory" content="submission">
+  <meta name="category" content="Physical Therapy">
+  <meta name="coverage" content="Worldwide">
+  <meta name="distribution" content="Global">
+  <meta name="rating" content="General">
+  <meta property="og:title" content="Capital Physical Therapy & Fitness" />
+  <meta property="og:type" content="Website" />
+  <meta property="og:url" content="https://www.capitalptandfitness.com" />
+  <meta property="og:image" content="images/fb-logo.jpg" />
+  <meta property="og:site_name" content="Capital Physical Therapy & Fitness" />
+  <meta property="og:description" content="Welcome to Capital Physical Therapy and Fitness! People are our passion and we are striving to be the absolute best PT and personal training clinic not only in Charleston, but in the entire state of WV! Our mission is to help patients and clients meet their rehab and fitness goals faster and with more cost effectiveness than your average clinic." />
+  <meta property="fb:page_id" content="100664934734171" />
+  <meta property="og:phone_number" content="304-926-0913" />
+  <meta property="og:street-address" content="4216 MacCorkle Ave SE" />
+  <meta property="og:locality" content="Charleston" />
+  <meta property="og:region" content="WV" />
+  <meta property="og:postal-code" content="25304" />
+  <meta property="og:country-name" content="USA" />
+
+  <link rel="icon" type="image/png" href="images/Logo-121w.webp" sizes="180x180">
+  <link href="css/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/9.2.0/swiper-bundle.css" integrity="sha512-Lc4aT4sbiVWDTSgqn3lf5kwKECm7rU45AReUS9WI2k4yRPSKtS+kJ9aV1jrxDUIyetNFRYZ3U2gR6WWbtWbIfA==" crossorigin="anonymous" referrerpolicy="no-referrer" />  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap"
+    rel="stylesheet">
+  <script src="//unpkg.com/alpinejs" defer></script>
+
+  <title>Capital Physical Therapy </title>
+  <!-- npx tailwindcss -i ./css/input.css -o ./css/style.css --watch -->
+</head>
+
+<body>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <!--Start Sticky Icon-->
+  <div class="sticky-icon">
+    <a href="tel:304-926-0913" class="Google bg-yellow-600"><i class="fa fa-phone" aria-hidden="true"></i><span
+        class="text-base">Click-to-call</span></a>
+    <a href="mailto:mtaylor@cptaf.com" target="_blank" class="Twitter bg-yellow-600"><i class="fa fa-envelope"
+        aria-hidden="true"></i><span class="text-xl">click</span> </a>
+  </div>
+  <!--End Sticky Icon-->
+
+
+  <!--  -->
+  <header x-data="{mobileMenu:false}" class="body-font fixed top-0 left-0 z-50 w-full duration-700 h-28 bg-white flex justify-center items-center">
+    <div class="container mx-auto lg:pt-0 pt-6 flex flex-wrap flex-col md:flex-row items-center">
+      <div id="wrapper" class="block lg:hidden  ">
+        <input type="checkbox" x-bind:checked="mobileMenu" x-on:change="mobileMenu =!mobileMenu" id="menu" name="menu" class="menu-checkbox">
+        <div class="menu  shadow-lg">
+          <label class="menu-toggle " for="menu"><span>Toggle</span></label>
+          <ul  class="bg-white">
+            <li   @click="toggle()">
+              <a href="#home" class="  btn-11 relative overflow-hidden py-2 px-5 rounded-xl text-base" >Home</a>
+            </li>
+            <li  @click="toggle()">
+              <a href="#specialties" class=" hover:text-gray-100 btn-11 relative overflow-hidden py-2 px-5 rounded-xl text-base">Clinic
+                Specialties</a>
+            </li>
+            <li  @click="toggle()">
+              <a href="#nutrition"
+                class=" hover:text-gray-100 btn-11 relative overflow-hidden py-2 px-5 rounded-xl text-base">Nutrition</a>
+            </li>
+            <li  @click="toggle()">
+              <a href="about.html"
+                class=" hover:text-gray-100 btn-11 relative overflow-hidden py-2 px-5 rounded-xl text-base">About</a>
+            </li>
+            <li  @click="toggle()">
+              <a href="#contact"
+                class=" hover:text-gray-100 btn-11 relative overflow-hidden py-2 px-5 rounded-xl text-base">Contact
+                Us</a>
+            </li>
+          </ul>
+          <a class=" hover:text-gray-900 btn ">
+            <!-- component -->
+
+            <ul class="bg-white flex flex-col text-center">
+              <li
+                class="rounded-2xl text-yellow-600 pb-3  py-1 hover:bg-Yelo hover:text-black text-md mb-5 transition-all duration-500 ">
+                <a href="tel:304-926-0913" class=" flex justify-center items-center"><svg
+                    xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-1 relative top-9 left-10" viewBox="0 0 20 20"
+                    fill="currentColor">
+                    <path
+                      d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
+                  </svg><span class="ml-5"> (304)926-0913 </span></a>
+              </li>
+              <li
+                class="rounded-2xl px-6 py-1 hover:bg-yellow-200 hover:text-white transition-all duration-500  text-md bg-Yelo">
+                <a href="https://irp.cdn-website.com/2edea495/files/uploaded/Consent.demographics.photography.depression_.pdf"
+                  target="_blank" class="">New Patient Paperwork</a>
+              </li>
+            </ul>
+
+          </a>
+        </div>
+      </div><!-- #wrapper -->
+
+      <a class="flex title-font font-medium justify-center items-center  mb-4 md:mb-0">
+        <img src="images/Logo-121w.webp" class="w-24 duration-700">
+        <span class=" text-xl text-blu duration-700 font-Mon">Capital Physical <br> Therapy & Fitness</span>
+      </a>
+
+
+
+      <nav
+        class="md:ml-auto hidden md:mr-auto lg:flex flex-wrap font-Mon items-center text-base justify-center cursor-pointer">
+        <a href="#home" class="  btn-11 relative overflow-hidden py-2 px-2 rounded-xl text-base">Home
+          <a href="#specialties" class=" hover:text-gray-100 btn-11 relative overflow-hidden py-2 px-2 rounded-xl text-base">Clinic
+            Specialties
+            <a href="#personaltraining" class=" hover:text-gray-100 btn-11 relative overflow-hidden py-2 px-2 rounded-xl text-base">Personal
+              Training & Gym
+              <a href="#nutrition"
+                class=" hover:text-gray-100 btn-11 relative overflow-hidden py-2 px-2 rounded-xl text-base">Nutrition
+              <a href="about.html"
+                class=" hover:text-gray-100 btn-11 relative overflow-hidden py-2 px-2 rounded-xl text-base">About
+                <a href="#contact"
+                  class=" hover:text-gray-100 btn-11 relative overflow-hidden py-2 px-2 rounded-xl text-base">Contact
+                  Us
+      </nav>
+      <a class=" hover:text-gray-900 btn ">
+        <!-- component -->
+
+        <ul class="bg-white hidden lg:flex flex-col text-center">
+          <li
+            class="rounded-2xl text-yellow-600 px-6 py-1 hover:bg-Yelo hover:text-black text-md mb-1 transition-all duration-500 ">
+            <a href="tel:304-926-0913" class=" flex justify-center items-center"><svg xmlns="http://www.w3.org/2000/svg"
+                class="h-4 w-4 mr-1" viewBox="0 0 20 20" fill="currentColor">
+                <path
+                  d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
+              </svg> (304)926-0913</a>
+          </li>
+          <li
+            class="rounded-2xl px-6 py-1 hover:bg-yellow-600 hover:text-white transition-all duration-500  text-md bg-Yelo">
+            <a href="https://irp.cdn-website.com/2edea495/files/uploaded/Consent.demographics.photography.depression_.pdf"
+              target="_blank" class="">New Patient Paperwork</a>
+          </li>
+        </ul>
+
+      </a>
+    </div>
+  </header>
+
+  <!--  -->
+  <!-- Swiper -->
+  <div class="swiper mySwiper mt-28 h-screen fixed top-0 rellax -z-50" data-rellax-speed="1" id="home">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide w-full">
+        <!-- <img src="images/" class="h-full w-full object-cover" /> -->
+        <!-- <video src='images/Website Background Good.mp4' autoPlay loop muted /> -->
+        <video width="100%" height="100%" autoPlay loop muted class="object-cover hidden lg:flex w-full h-screen">
+          <source src="images/bgm3.mp4">
+        </video>
+        <video width="100%" height="100%" autoPlay loop muted class="object-cover lg:hidden w-full h-screen">
+          <source src="images/bgd3.mp4">
+        </video>
+        <div
+          class="absolute top-0 z-20 justify-center items-center flex text-white bg-black bg-opacity-30 w-full h-full">
+          <div class=" relative">
+            <h1 class="mb-10 text-8xl font-semibold z-10 relative"><span class="text-yellow-500 ">Get. Better. Faster.
+              </span></h1>
+            <a href="tel:304-926-0913"
+              class="bg-Yelo py-2 px-10 mt-12  rounded-full ml-2 do-vote text-3xl"><span>Schedule Today</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+
+  <!-- component -->
+
+
+  <div class="w-full relative rellax z-20 bg-white mt-10 " data-rellax-speed="5">
+
+    <div class="w-full relative  lg:flex rotate-180  ">
+      <img src="images/heh2.svg " class="absolute -top-0.5 z-10 w-full">
+    </div>
+    <div class="w-full flex justify-center h-20 py-5  ">
+      
+      <div class="z-10 sm:w-3/5 bg-white px-12 ">
+        <h2 class="text-gray-800 text-center text-xl lg:text-4xl font-bold border-b-4 border-yellow-600 pb-4">Capital
+          Physical Therapy
+          and Fitness </h2>
+      </div>
+    </div>
+    <div
+      class="pb-44 pt-8 px-10 sm:px-36 text-center relative bg-white  flex flex-col justify-center items-center mx-auto ">
+      <h1 class="font-Mon text-sm sm:text-lg leading-9 font-light text-justify text-gray-500">Welcome to <span
+          class="text-yellow-600 font-semibold">Capital Physical Therapy and
+          Fitness! </span> People are our passion and we are striving to be the absolute best PT and personal training
+        clinic not only in Charleston, but in the entire state of WV!
+
+        Our mission is to help patients and clients meet their rehab and fitness goals faster and with more cost
+        effectiveness than your average clinic. We plan to do this by taking a very active and engaging approach to
+        empower patients/clients in their own health and wellness.
+
+        We have taken countless hours to apply the newest research and data in our clinic to apply it toward meeting ALL
+        your goals as quicky as possible.</h1>
+      <div class="custom-shape-divider-bottom-1657827983 lg:mb-0 -mb-1">
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+          <path d="M1200 0L0 0 598.97 114.72 1200 0z" class="shape-fill"></path>
+        </svg>
+      </div>
+    </div>
+    <div class="w-full flex flex-col pb-12 text-white relative justify-center items-center bg-yellow-600   z-10 ">
+      <div class="custom-shape-divider-bottom-165706 z-50 ">
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+          <path d="M1200 0L0 0 598.97 114.72 1200 0z" class="shape-fill"></path>
+        </svg>
+      </div>
+      <h1 class="bg-yellow-600  font-Mon font-bold text-3xl  sm:text-5xl pb-4 border-b-4 border-yellow-100">Our Programs
+      </h1>
+      <p class="font-Mon text-base px-5 sm:text-xl leading-9 font-light text-gray-100 mb-44 mt-12">Specialty physical
+        therapy services
+        offered at
+        Capital Physical Therapy and Fitness include:</p>
+    </div>
+  </div>
+
+  <!-- about -->
+
+  <section
+    class="text-gray-600 w-full group -mt-[580px] lg:-mt-[550px] shapedividers_com-4989 relative body-font object-cover flex overflow-hidden items-center"
+    data-rellax-speed="9">
+    <div class="custom-shape-divider-bottom-1657828167">
+      <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path d="M1200 0L0 0 598.97 114.72 1200 0z" class="shape-fill"></path>
+      </svg>
+    </div>
+    <div class="bg-slate-100 mt-28 lg:-mt-28 w-full shapedividers_com-4989  h-full z-10 pt-20 pb-24 lg:pt-44 lg:py-44">
+
+
+      <div id="specialties" class="container  flex md:flex-row flex-col w-full pt-28 z-10 ">
+        <div
+          class="md:w-2/5 bg-gradient-to-t from-yellow-700 via-yellow-600 to-yellow-500 transition-all duration-700  rounded-r-3xl p-7 group-hover:p-12">
+          <img
+            class="object-cover w-full h-full ml-0 shadow-xl  lg:group-hover:ml-36 transition-all duration-700 rounded-3xl"
+            alt="hero" src="images/HumacNormpic.png">
+        </div>
+        <div class="md:w-3/5 h-4/5 pt-10 lg:pt-20 py-20 pl-10 pr-5 sm:pr-0  md:pl-40 bg-opacity-90 font-Mon js-show-on-scroll "
+          data-animate-type="animate-enter-fade-r">
+          <h1 class="title-font text-4xl  font-bold text-blu  border-b-2 border-gray-200">ACL Specialties
+          </h1>
+          <div class=" pt-8  ">
+            <h1 class="text-xl font-medium pb-10 ">What to expect?</h1>
+            <ul class="underline-offset-1 list-outside list-disc ">
+
+              <li class="font-light text-lg leading-8">Full return to sport/play testing monthly.</li>
+              
+              <li class="font-light text-lg leading-8">Treatment on an Isokinetic for treatment for fast progress.
+              </li>
+              <li class="font-light text-lg leading-8">Blood flow restriction therapy!</li>
+              <li class="font-light text-lg leading-8">Coordination of care with coaches, physicians, and schools.</li>
+            </ul>
+              
+           
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!--  -->
+
+  <section data-rellax-speed="1"
+    class="pb-44 pt-0 lg:pb-24 rellax text-gray-600 w-full body-font bg-white flex justify-center items-center z-20">
+
+
+    <section
+      class="text-gray-600 group w-full h-[2100px] lg:h-[100em] lg:mt-20 relative body-font object-cover flex overflow-hidden items-center">
+      <div class="bg-white w-full h-full z-10">
+        <div class="container md:flex md:flex-row flex-col-reverse flex w-full pt-24 lg:pt-0 z-10 ">
+
+          <div class="md:w-3/5 h-4/5 pt-10 lg:pt-20 md:pl-40 px-10   bg-opacity-90 font-Mon js-show-on-scroll  "
+            data-animate-type="animate-enter-fade-r">
+            <h1 class="title-font text-4xl  font-bold text-blu  border-b-2 border-gray-200">Certified
+              Lymphedema Therapist (CLT)
+            </h1>
+            <div class=" py-8 ">
+              <h1 class="text-xl font-medium pb-5 ">What to expect?</h1>
+              <ul class="underline-offset-1 list-outside list-disc">
+                <li class="font-light text-lg leading-8">Proper selection of the right kind of compression</li>
+  
+                <li class="font-light text-lg leading-8">A professional, individualized exercise program</li>
+                <li class="font-light text-lg leading-8">Thorough education about your specific type of lymphedema </li>
+                <li class="font-light text-lg leading-8">Management techniques of the disease</li>
+
+              </ul>
+            </div>
+            <p class="font-light text-lg py-6 leading-9">Common patients with lymphedema include patients suffering
+              from
+              cancer and radiation/chemo and or morbidly obese/post-surgical patients. </p>
+          </div>
+          <div
+            class="sm:w-2/5 bg-gradient-to-t from-yellow-700 via-yellow-600 to-yellow-500  transition-all duration-700 sm:absolute  lg:h-[40em] rounded-3xl p-3 lg:p-7 lg:group-hover:p-8 -right-10">
+            <img
+              class="object-cover lg:w-4/5 lg:mt-6  sm:h-5/6 lg:m-10 left-0 lg:absolute  shadow-xl lg:group-hover:-left-24 transition-all duration-700 rounded-3xl  "
+              alt="hero" src="images/Lymphedema_SB.jpg">
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </section>
+
+  <section
+    class="text-gray-600 w-full group -mt-[1130px] shapedividers_com-4989 relative body-font object-cover flex overflow-hidden items-center"
+    data-rellax-speed="3">
+    <div class="custom-shape-divider-bottom-1657828167">
+      <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path d="M1200 0L0 0 598.97 114.72 1200 0z" class="shape-fill"></path>
+      </svg>
+    </div>
+    <div class="bg-slate-100 -mt-28 w-full shapedividers_com-4989  h-full z-10  py-44">
+      <div class="custom-shape-divider-top-1657725364 mt-28">
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+          <path d="M598.97 114.72L0 0 0 120 1200 120 1200 0 598.97 114.72z" class="shape-fill"></path>
+        </svg>
+      </div>
+
+      <div class="container flex md:flex-row flex-col w-full pt-28 z-10 ">
+        <div
+          class="md:w-2/5 bg-gradient-to-t from-yellow-700 via-yellow-600 to-yellow-500 transition-all duration-700  rounded-r-3xl p-3 lg:p-7 lg:group-hover:p-12">
+          <img
+            class="object-cover w-full h-full ml-0 shadow-xl lg:group-hover:ml-36 transition-all duration-700 rounded-3xl"
+            alt="hero" src="images/vertigo_pic.JPG">
+        </div>
+        <div class="md:w-3/5 h-4/5 pb-18  pt-10 lg:pt-20 sm:pl-40 px-10 bg-opacity-90 font-Mon js-show-on-scroll "
+          data-animate-type="animate-enter-fade-r">
+          <h1 class="title-font text-4xl  font-bold text-blu  border-b-2 border-gray-200">Vestibular Rehab
+            Specialist
+          </h1>
+          <div class=" py-8">
+            <h1 class="text-xl font-medium pb-10 ">What to expect?</h1>
+            <ul class="underline-offset-1 list-outside list-disc">
+
+              <li class="font-light text-lg leading-8">Thorough verbal evaluation and assessment</li>
+  
+              <li class="font-light text-lg leading-8">Various head-turning techniques for treatment (Epley maneuver)
+              </li>
+              <li class="font-light text-lg leading-8">Proper exercise selection targeting the source of vertigo
+                (somatosensory, vestibular, or visual system)</li>
+              <li class="font-light text-lg leading-8">Guidance with precautions after Epley maneuver</li>
+            </ul>
+          </div>
+          <p class="font-light text-lg  leading-9">Common patients would include any/everyone with dizziness/vertigo.
+            Ages ranges from childhood to late adulthood but most cases seen are 25 and higher. </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class=" w-full    group relative body-font object-cover flex overflow-hidden items-center"
+    data-rellax-speed="2">
+    <div class="bg-white w-full h-full z-10 pb-12 lg:pb-64">
+      <div class="container sm:flex md:flex-row justify-between flex-col-reverse flex w-full  z-10 ">
+
+        <div class="md:w-3/5 h-4/5 pt-18 sm:pl-40 px-10 bg-opacity-90 font-Mon js-show-on-scroll mt-8 lg:mt-0 "
+          data-animate-type="animate-enter-fade-r">
+          <h1 class="title-font text-4xl  font-bold text-blu  border-b-2 border-gray-200">Parkinson’s Disease
+            Specialist
+          </h1>
+          <div class=" py-8">
+            <h1 class="text-xl font-medium pb-10 ">What to expect?</h1>
+            <ul class="underline-offset-1 list-outside list-disc">
+
+              <li class="font-light text-lg leading-8">Highlight of the LSVT “Big” Gold Standard for PD treatment</li>
+  
+              <li class="font-light text-lg leading-8">Proper staging of PD and setting up a support system</li>
+              <li class="font-light text-lg leading-8">Objective testing of functional mobility (walking and sit to stand
+                test)</li>
+              <li class="font-light text-lg leading-8">Medication timing and home exercise prescription</li>
+            </ul>
+          </div>
+          <p class="font-light text-lg  leading-9">The three most common signs of Parkinson’s Disease are bradykinesia
+            (slow movement), resting tremors, and rigidity (increased stiffness and mobility).</p>
+        </div>
+        <div
+        class="sm:w-2/5 w-full bg-gradient-to-t from-yellow-700 via-yellow-600 to-yellow-500  transition-all duration-700 sm:absolute sm:h-[40em] rounded-3xl p-3 lg:p-7 lg:group-hover:p-8 -right-10">
+        <img
+          class="object-cover lg:w-4/5 lg:mt-6 w-full sm:h-5/6 lg:m-10 left-0 lg:absolute  shadow-xl lg:group-hover:-left-24 transition-all duration-700 rounded-3xl  "
+          alt="hero" src="images/OldWoman.webp">
+      </div>
+      </div>
+    </div>
+  </section>
+
+  <!--  -->
+  <!--  -->
+
+  <section class="text-gray-600 w-full group relative body-font object-cover flex overflow-hidden items-center "
+    data-rellax-speed="2">
+    <div class="bg-gray-100 w-full h-fulll shapedividers_com-4989 h-full z-10  py-40 lg:pb-72 pb-20">
+      <div class="custom-shape-divider-top-1657725364">
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+          <path d="M598.97 114.72L0 0 0 120 1200 120 1200 0 598.97 114.72z" class="shape-fill"></path>
+        </svg>
+      </div>
+      <div class="container flex md:flex-row flex-col w-full pb-24 lg:pb-0  z-10 ">
+        <div
+          class="md:w-2/5 bg-gradient-to-t from-yellow-700 via-yellow-600 to-yellow-500  transition-all duration-700  rounded-r-3xl p-3 lg:p-7 lg:group-hover:p-12">
+          <img
+            class="object-cover w-full h-full ml-0 shadow-xl lg:group-hover:ml-36 transition-all duration-700 rounded-3xl"
+            alt="hero" src="images/kv-3-1920w.webp">
+        </div>
+        <div class="md:w-3/5 h-4/5 pt-10 lg:pt-28 py-28 pb-72 lg:pb-48  sm:pl-40 px-10 bg-opacity-90 font-Mon js-show-on-scroll "
+          data-animate-type="animate-enter-fade-r">
+          <h1 class="title-font text-4xl  font-bold text-blu  border-b-2 border-gray-200">Certified Strength and
+            Conditioning Specialist
+          </h1>
+          <div class=" py-8">
+            <h1 class="text-xl font-medium pb-10 ">What to expect?</h1>
+            <ul class="underline-offset-1 list-outside list-disc">
+
+              <li class="font-light text-lg leading-8">Professional/expert assessment of strength (patient or client)
+              </li>
+  
+              <li class="font-light text-lg leading-8">Proper exercise prescription to any person with an injury or for
+                personal training</li>
+              <li class="font-light text-lg leading-8">Programming for power lifters</li>
+              <li class="font-light text-lg leading-8">Programming for marathon runners</li>
+              <li class="font-light text-lg leading-8">Proper demonstration and video of form/technique of exercise</li>
+            </ul>
+          </div>
+          <p class="font-light text-lg  leading-7">Patients under this category tend to include teenagers and parents of teenagers or athletes of any age/serious strength athletes and professional-grade athletes. Coaches and orthopedic surgeons are also good referral sources.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--  -->
+
+
+  <!--  Personal Training & Gym  -->
+
+
+  <div class="w-full relative rellax z-20 mt-[600px] " data-rellax-speed="2" id="personaltraining">
+    <div class="pb-44 px-36 text-center relative flex flex-col justify-center items-center mx-auto ">
+
+      <div class="custom-shape-divider-bottom-1657827983 -mb-0.5 lg:mb-0">
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+          <path d="M1200 0L0 0 598.97 114.72 1200 0z" class="shape-fill"></path>
+        </svg>
+      </div>
+    </div>
+    <div class="w-full flex flex-col pb-24 text-white relative justify-center items-center bg-yellow-600 z-10 ">
+      <div class="custom-shape-divider-bottom-1657828167 -mb-0.5 lg:mb-0">
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+          <path d="M1200 0L0 0 598.97 114.72 1200 0z" class="shape-fill"></path>
+        </svg>
+      </div
+      
+       <div class="flex justify-center items-center flex-col w-full">
+         <h1 class="text-white font-Mon text-center font-bold sm:text-5xl text-3xl pb-4 px-10 sm:px-0 border-b-4 border-yellow-100">
+           Personal Training & Gym
+         </h1>
+       
+       <p class="font-Mon text-xl leading-9 px-10 sm:px-0 text-center  font-light text-gray-100 pb-20 mt-12">Revolutionary training
+         services from
+         our gym to your home</p>
+
+       </div>
+    </div>
+  </div>
+
+
+  <!--  -->
+  <section class="text-gray-600 bg-white body-font -mt-[1200px] sm:-mt-[900px] relative group" data-rellax-speed="4">
+    <div class="container mx-auto flex px-5 pb-24 md:flex-row flex-col items-center js-show-on-scroll "
+      data-animate-type="animate-enter-fade-l">
+      <div
+        class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 sm:px-24 px-10 font-Mon md:mb-0 items-center text-center">
+        <section class="text-gray-600 body-font  relative group" data-rellax-speed="3">
+          <div class="w-full flex flex-col pb-4  bg-white  ">
+            <h1 class="text-blu font-Mon font-bold text-4xl pb-4 relative z-20 pt-8">Gym Membership </h1>
+            <p class="font-Mon text-lg leading-9 font-light text-gray-500">Gym Membership
+              Are you more hands-on? Do you like traditional, face-to-face coaching? We have you covered. We offer a gym
+              membership and in-person personal training options.</p>
+          </div>
+        </section>
+      </div>
+
+      <div
+        class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 js-show-on-scroll lg:group-hover:scale-105 relative z-30 transform transition-all duration-700"
+        data-animate-type="animate-enter-fade-r">
+        <img class="object-cover object-center rounded" alt="hero" src="images/GettyImages-1187102741-3-1920w.png">
+      </div>
+    </div>
+  </section>
+
+
+  <!-- get started -->
+
+
+  <!--  -->
+
+
+  <!--  -->
+  <!--  -->
+
+  <section class="text-gray-600  bg-white w-full  body-font flex flex-col overflow-hidden items-center"
+    data-rellax-speed="2">
+    <div class="container flex py-2 pb-12 md:flex-row flex-col w-full justify-center items-center mx-auto z-10 ">
+      <div class="md:w-1/2 w-5/6 md:ml-40 js-show-on-scroll " data-animate-type="animate-enter-fade-l">
+        <img class="object-cover h-full object-center rounded-xl" alt="hero"
+          src="images/GettyImages-1091567238-2c-660w.webp">
+      </div>
+
+      <div class="md:w-2/3 sm:relative  -left-10  rounded-3xl js-show-on-scroll "
+        data-animate-type="animate-enter-fade-r">
+
+        <div class=" bg-white py-10 px-8 shadow-2xl border border-gray-300 rounded-3xl font-Mon mx-10">
+          <h1 class="title-font text-3xl text-center font-bold text-blu pb-6 border-b-2 border-gray-200">Personal Training &
+            Fitness
+            Coaching
+          </h1>
+          <p class="font-light text-base pt-6 leading-9">Do you want to tighten a hard to reach area? Do you want to
+            improve
+            your energy and stamina? Are you ready to feel good again? Give us a call. Our team offers complete personal
+            training services. We help you reach your goals, stay motivated, get healthy, and gain confidence. For more
+            information, call us now at <a href="tel:304-926-0913" class="font-Mon font-medium text-Yelo">(304)
+              926-0913</a>.</p>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!--  -->
+
+
+
+
+
+
+
+
+
+  <!--  -->
+  <div class="bg-slate-100 shapedividers_com-4989 hidden  py-44 w-full lg:flex items-center justify-center "
+    data-rellax-speed="2.5">
+    <div class="custom-shape-divider-top-1657725364">
+      <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path d="M598.97 114.72L0 0 0 120 1200 120 1200 0 598.97 114.72z" class="shape-fill"></path>
+      </svg>
+    </div>
+    <div class="swiper mySwiper2 ">
+      <h1 class="text-4xl font-bold text-yellow-600 text-center">Patient Testimonials</h1>
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="py-10 px-40 js-show-on-scroll " data-animate-type="animate-enter-fade-t">
+            <h1 class="text-xl text-Yelo">★★★★★</h1>
+            <p class="py-7 px-20 font-light text-white  text-justify bg-yellow-600 rounded-lg mt-5">I went to Capital
+              Physical Therapy and Fitness for therapy after a Chiari
+              Malformation
+              Decompression Surgery. Basically removal of part of my C1 and 3mm of my skull. I started roughly 7 weeks
+              after the surgery and knew immediately I would continue to see Matt even after my therapy to help me reach
+              my fitness goals as well. The staff Ashley and Rita were always pleasant and helpful constantly sanitizing
+              the gym area. Matt is knowledgeable and very good about explaining your specific issue, how you're going
+              to fix it and your over all goals. Once you've sat down with him and created a health goal he will give
+              the encouragement and tools needed to achieve your goal. I can't recommend this place enough and I've had
+              physical therapy many times with many other people and Matt is the bast by far.</p>
+            <h1 class="mt-2 font-semibold">Al</h1>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="py-11 px-40 ">
+            <h1 class="text-xl text-Yelo">★★★★★</h1>
+            <p class="py-7 px-6 font-light text-white  text-justify bg-yellow-600 rounded-lg mt-5">Capital Physical
+              Therapy and Fitness in my opinion is a rare gem that is
+              hard to find in our valley. I have been to other Outpatient Physical Therapy Clinic before and I am
+              impressed on the set up of this new clinic. CPTAF is outstanding not only that the goal is to get you
+              better with the least amount of time, but also to encourage a healthier lifestyle. Win! Win!
+
+              Matt Taylor, the owner is humble, outstanding, passionate and knowledgeable of his craft. Rarely will you
+              find a Doctor of Physical Therapy and an Athletic Coach rolled into one. The staff are amazing and very
+              friendly and carefully selected I believe. I have had very good experience with Matt’s services,
+              especially the wonderful gym class workouts in the morning! It is a lot of fun! The group of men who
+              workout there are outstanding too!</p>
+            <h1 class=" mt-2 font-semibold">Brian</h1>
+          </div>
+        </div>
+        <div class="swiper-slide bg-gray-100">
+          <div class="py-11 px-40 ">
+            <h1 class="text-xl text-Yelo">★★★★★</h1>
+            <p class="py-7 px-6 font-light text-white  text-justify bg-yellow-600 rounded-lg mt-5">Matt and his team do
+              an amazing job. I had the opportunity to visit with
+              two separate injuries last year. For my shoulder I was able to complete the treatment sooner than expected
+              and finished pain free and with full range of motion. <br>
+
+
+              Later in the year Matt helped me on some chronic plantar issues that I’ve dealt with for years. I finished
+              that course much improved and I was delighted with the progress. I’ve tried twice before with other
+              therapists and didn’t get any long term relief. Matt is awesome.</p>
+            <h1 class=" mt-2 font-semibold">Ian</h1>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="py-11 px-40 ">
+            <h1 class="text-xl text-Yelo">★★★★★</h1>
+            <p class="py-7 px-6 font-light text-white  text-justify bg-yellow-600 rounded-lg mt-5">I am a daily walker
+              who developed severe hip pain that brought me to
+              tears. Matt was able to treat my pain with a series of exercises to strengthen my hip and RELIEVE the pain
+              so I could resume activity. As a therapist, Matt carefully listened to my symptoms and put a plan together
+              with the goal to get me back in action with fewer visits than traditional clinics. He also treated my
+              mother’s vertigo with vestibular rehabilitation therapy in only two visits. She said the correction to her
+              vertigo was remarkable. Do not hesitate to visit Capital Physical Therapy and Fitness. Parking is right at
+              the door, and the staff is friendly and ready to assist you.</p>
+            <h1 class=" mt-2 font-semibold">Janet</h1>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="py-11 px-40 ">
+            <h1 class="text-xl text-Yelo">★★★★★</h1>
+            <p class="py-7 px-6 font-light text-white  text-justify bg-yellow-600 rounded-lg mt-5">Capital City Physical
+              Therapy and Fitness is a wonderful place with the
+              friendliest and most helpful staff members. The weekday morning (never in a million years did I think I
+              would be one of those people who wakes up at 5am to workout) exercise group has given me the friendships
+              and accountability I need to continue in my goals of physical health. The gym is well equipped and
+              thoroughly cleaned throughout the day. I cannot recommend CPTAF enough.</p>
+            <h1 class=" mt-2 font-semibold">Rachel</h1>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="py-11 px-40 ">
+            <h1 class="text-xl text-Yelo">★★★★★</h1>
+            <p class="py-7 px-6 font-light text-white  text-justify bg-yellow-600 rounded-lg mt-5">I recently came to
+              Matt (Phys. Therapist at Capital PT) with a nagging
+              knee injury that had limited my running capacity to less than a mile. I told him where the pain was
+              occurring, and within 10 minutes Matt had given me 2 muscle strengthening exercises that I could do at
+              home. Within 3 weeks, I am now able to run at 100% capacity from before injury with NO pain and have
+              increased my run length to nearly 3 miles. This guy is a great PT and has your best interest in mind with
+              every conversation. Thanks Matt and Capital PT!!!</p>
+            <h1 class=" mt-2 font-semibold">Ryan</h1>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="py-11 px-40 ">
+            <h1 class="text-xl text-Yelo">★★★★★</h1>
+            <p class="py-7 px-6 font-light text-white  text-justify bg-yellow-600 rounded-lg mt-5">I learned about CPTF
+              through my job. My husband and my son both needed
+              physical therapy for different reasons. It only took a few visits for my son to be back to himself and
+              double his knee strength. My husband is still a work in progress but is coming along great with Matt's
+              help. I needed a place where I could work out that wasn't as intimidating as a popular gym.I have never
+              worked out in a gym so i didn't even know where to start. I found a trainer, Mara, who is FABULOUS. She
+              helps me so much! Give them a call if you want a clean, friendly and knowledgeable place to get your mind
+              and body right!!!!</p>
+            <h1 class=" mt-2 font-semibold">Lisa</h1>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="py-11 px-40 ">
+            <h1 class="text-xl text-Yelo">★★★★★</h1>
+            <p class="py-7 px-6 font-light text-white  text-justify bg-yellow-600 rounded-lg mt-5">When I was given a
+              referral to Capital Physical Therapy and Fitness I was
+              desperate to get better. I had two major surgeries a year prior on my heart and chest at Cleveland Clinic.
+              The surgeries went well but for some unexplained reason I had lost my sense of balance and suffered from
+              terrible dizzy spells. Cleveland clinic was not able to help me fully and they didn’t understand the
+              nature of my suffering. The operation and the condition I have made my situation rather delicate and
+              difficult to comprehend and address. <br> <br>
+
+
+              The team at Capital PT&F are the only people who have been able to help me in any capacity. I tried
+              everything prior. I went to the ear nose and throat doctor, the ER numerous times, returned to Cleveland,
+              met with a psychiatrist, got massages, went to the chiropractor, cardiac rehab and even tried holistic
+              healing to find someone who can help me regain my balance and end the suffering. I was in a deplorable
+              state but I was willing to try anything to get better. <br> <br>
+
+
+              I am happy to share with you that this facility and team are the only people who have helped me achieve
+              results. I am doing challenging vestibular exercises and lifting weights again and they are helping with
+              the dizziness and the off balanced-ness I had thought would never go away. It’s literally been the only
+              helpful thing I’ve done to get results. With my current trajectory it would appear that I should even
+              return to my previous state before surgery like the doctors at Cleveland had initially thought. I had also
+              regained my ability to walk great distances. In the beginning it was difficult to get off the couch and go
+              to the restroom. Now after PT I walk for two hours if I am so inclined. <br> <br>
+
+
+              This is the only hope I’ve been given in a years worth of suffering and recovery. You just have to show up
+              and try your best with the plan of care that has been given to you and trust the process. If you’re
+              anything like me, you will see results and get better. I am entirely indebted to this team of hardworking
+              attentive individuals.</p>
+            <h1 class=" mt-2 font-semibold">Jeff</h1>
+          </div>
+        </div>
+
+      </div>
+      <div class="swiper-button-next mr-20 z-50 relative"></div>
+      <div class="swiper-button-prev ml-24"></div>
+      <div class="swiper-pagination"></div>
+    </div>
+    <div class="custom-shape-divider-bottom-1657827983 lg:mb-0 -mb-1 ">
+      <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
+          preserveAspectRatio="none">
+          <path d="M1200 0L0 0 598.97 114.72 1200 0z" class="shape-fill"></path>
+      </svg>
+  </div>
+
+  </div>
+
+
+
+    <!--nutrition  -->
+    <!--  -->
+    <section class="relative" id="nutrition">
+    
+ 
+      <section class=" ">
+          <!-- <div class="custom-shape-divider-bottom-1657827983 lg:mb-0 -mb-1">
+              <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
+                  preserveAspectRatio="none">
+                  <path d="M1200 0L0 0 598.97 114.72 1200 0z" class="shape-fill"></path>
+              </svg>
+          </div> -->
+
+          <div class="w-full flex flex-col pb-60 text-white relative justify-center items-center bg-yellow-600 px-28  z-10 ">
+              <div class="custom-shape-divider-bottom-165706 z-50 ">
+                  <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
+                      preserveAspectRatio="none">
+                      <path d="M1200 0L0 0 598.97 114.72 1200 0z" class="shape-fill"></path>
+                  </svg>
+              </div>
+
+              <a href="#"
+                  class="bg-yellow-600  font-Mon font-bold sm:text-5xl text-3xl mt-24 sm:mt-0 pb-4 border-b-4 
+                  border-white">Nutrition
+              </a>
+          </div>
+      </section>
+
+
+      <section
+          class="text-gray-600 w-full group  shapedividers_com-4989 relative body-font object-cover flex overflow-hidden items-center">
+          <div class="custom-shape-divider-bottom-1657828167">
+              <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
+                  preserveAspectRatio="none">
+                  <path d="M1200 0L0 0 598.97 114.72 1200 0z" class="shape-fill"></path>
+              </svg>
+          </div>
+          <div
+              class="bg-slate-100 md:mt-28 lg:-mt-28 w-full shapedividers_com-4989  h-full z-10 pt-20 pb-24 lg:pt-20 lg:py-44">
+
+
+              <div id="specialties" class="container  flex md:flex-row flex-col w-full pt-20 z-10 ">
+                  <div
+                      class="md:w-2/5 bg-gradient-to-t from-yellow-700 via-yellow-600 to-yellow-500 transition-all duration-700  rounded-r-3xl p-7 group-hover:p-12">
+                      <img class="object-cover w-full h-full ml-0 shadow-xl  lg:group-hover:ml-36 transition-all duration-700 rounded-3xl"
+                          alt="hero" src="images/nutri.webp">
+                  </div>
+                  <div class="md:w-3/5 h-4/5 pt-10 lg:pt-20 py-20 pl-10 pr-5 sm:pr-0  md:pl-40 bg-opacity-90 font-Mon js-show-on-scroll "
+                      data-animate-type="animate-enter-fade-r">
+                      <h1 class="title-font text-4xl  font-bold text-blu  border-b-2 border-gray-200">Nutrition
+                      </h1>
+                      <div class=" pt-8  ">
+                          <ul class="underline-offset-1 list-outside list-disc ">
+
+                              <li class="font-light text-lg leading-8 list-none">
+                                  We all know that nutrition is essential to healthy living, but between what you hear
+                                  on TV and read in the news, eating right can seem downright confusing. Meeting with
+                                  a Registered Dietitian can help you cut through the clutter, and provide a sound,
+                                  easy-to-follow plan that is tailored to your goals and health condition. Rachel
+                                  Sallade, Registered Dietitian, and owner of New Day Nutrition, LLC, has a passion
+                                  for educating and empowering others to make healthier choices when it comes to food.
+                                  She believes that it is never too late to start taking control of your health.
+                                  Tomorrow is a new day, and even one small step in the right direction can lead to
+                                  benefits that last a lifetime.</li>
+
+                          </ul>
+
+
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+
+  </section>
+  <!--  -->
+
+  <!--  -->
+  <section
+      class="pb-44 pt-0 lg:pb-44 relative  text-gray-600 w-full body-font bg-white flex justify-center items-center z-20">
+
+
+      <section
+          class="text-gray-600 group w-full h-full lg:mt-2 relative body-font object-cover flex overflow-hidden items-center">
+          <div class="bg-white w-full h-full z-10">
+              <div class="container md:flex md:flex-row flex-col-reverse flex w-full pt-24 lg:pt-0 z-10 ">
+
+                  <div class="md:w-3/5 h-4/5 pt-10 md:pl-40 px-10   bg-opacity-90 font-Mon js-show-on-scroll  "
+                      data-animate-type="animate-enter-fade-r">
+                      <p class="font-light text-lg py-6 leading-9">Nutrition Therapy is different for everyone
+                          depending on their needs, medical conditions, schedule, stage of life, and more. However,
+                          here are some of the basics of what to expect when you book a package:</p>
+                      <div class=" py-8 ">
+                          <ul class="underline-offset-1 list-outside list-disc">
+                              <li class="font-light text-lg leading-8">Learn to set achievable goals</li>
+
+                              <li class="font-light text-lg leading-8">Quick and easy recipes, a guide to fast food,
+                                  tips for building a better breakfast
+                              </li>
+                              <li class="font-light text-lg leading-8">Easy to follow visuals that kick calorie
+                                  counting to the curb </li>
+                              <li class="font-light text-lg leading-8">Information on macronutrients, micronutrients,
+                                  and how to create the perfect meal for blood sugar balance and satiation</li>
+                              <li class="font-light text-lg leading-8">Learn to eat mindfully and follow your internal
+                                  hunger cues</li>
+                              <li class="font-light text-lg leading-8">Accountability and meal reviews on an
+                                  easy-to-use app for smartphones</li>
+                              <li class="font-light text-lg leading-8">Tips for meal planning and product suggestions
+                                  for grocery shopping</li>
+
+                          </ul>
+                      </div>
+
+                  </div>
+                  <div
+                      class="sm:w-2/5 bg-gradient-to-t from-yellow-700 via-yellow-600 to-yellow-500  transition-all duration-700 sm:absolute  lg:h-[40em] rounded-3xl p-3 lg:p-7 lg:group-hover:p-8 -right-10">
+                      <img class="object-cover lg:w-4/5 lg:mt-6  sm:h-5/6 lg:m-10 left-0 lg:absolute  shadow-xl lg:group-hover:-left-24 transition-all duration-700 rounded-3xl  "
+                          alt="hero" src="images/GettyImages-1296507353-7e64d87b-1920w.webp">
+                  </div>
+              </div>
+          </div>
+
+      </section>
+      <div class="custom-shape-divider-bottom-1657827983 lg:mb-0 -mb-1">
+          <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
+              preserveAspectRatio="none">
+              <path d="M1200 0L0 0 598.97 114.72 1200 0z" class="shape-fill"></path>
+          </svg>
+      </div>
+  </section>
+  <!--  -->
+
+  <section>
+
+      <div
+          class="w-full flex flex-col pb-12 text-white relative justify-center items-center bg-yellow-600 px-20  z-10 ">
+          <div class="custom-shape-divider-bottom-165706 z-50 ">
+              <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
+                  preserveAspectRatio="none">
+                  <path d="M1200 0L0 0 598.97 114.72 1200 0z" class="shape-fill"></path>
+              </svg>
+          </div>
+
+          <p class="font-Mon text-base px-5 sm:text-xl leading-9 font-light text-gray-100 mb-44 mt-12">Ready to take
+              back your health? Email Rachel at <a href="#"
+                  class="bg-yellow-600  font-Mon font-bold sm:text-xl pb-4 border-b-4 border-yellow-600">rachelsallade.rd@gmail.com
+              </a> and set up a discovery call.
+
+              Currently, Rachel is only accepting private pay, but a superbill will be provided for possible insurance
+              reimbursement. To see available appointments this month, follow this link:
+              <a href="#" class="bg-yellow-600  font-Mon font-bold sm:text-xl pb-4 border-b-4 border-yellow-600">
+                  https://rachel-sallade.clientsecure.me/
+              </a>
+          </p>
+      </div>
+  </section>
+
+  <!--  nutrition -->
+
+
+
+
+
+
+
+
+
+  <!--  -->
+
+  <section class="text-gray-600 body-font bg-[#F1F5F9]  js-show-on-scroll " data-rellax-speed="2.5"
+    data-animate-type="animate-enter-fade-l">
+    <div class="text-center w-full flex justify-center items-center">
+      <h1 class="title-font font-Mon text-3xl font-bold text-blu">Check out the new podcast!!</h1>
+    </div>
+    <a href="https://www.youtube.com/channel/UClF81x7ozc5KvkhgZWh1FpA "
+      class="container mx-auto flex px-5 pb-24 pt-6 items-center justify-center flex-col">
+      <img class=" md:w-3/6 w-5/6 mb-10 border-4  object-cover object-center rounded-3xl shadow-xl" alt="hero"
+        src="images/PodcastPic.webp">
+    </a>
+    <div class="swiper mySwiper4 bg-yellow-500">
+      <div class="swiper-wrapper py-4  flex justify-between items-center m-auto">
+        <div class="swiper-slide"><a href="https://www.apta.org/"> <img alt="team" class="w-60 "
+              src="images/APTA.svg"></a></div>
+        <div class="swiper-slide"><a href="https://wvpta.org/"> <img alt="team" class="w-60 "
+              src="images/WVPTA-640w.png"></a></div>
+        <div class="swiper-slide"> <a href="https://www.nsca.com/"><img alt="team" class="w-60  "
+              src="images/NSCA-640w.webp"></a></div>
+        <div class="swiper-slide"> <a href="https://www.mediusa.com/"><img alt="team" class="w-60 "
+              src="images/thumbnail_Medi-640w.png"></a></div>
+        <div class="swiper-slide"> <a href="https://unionmission.com/"><img alt="team" class="w-60 "
+              src="images/UnionMission-640w.webp"></a></div>
+        <div class="swiper-slide"> <a href="https://www.lsvtglobal.com/"><img alt="team" class="w-60 "
+              src="images/LSVT-640w.webp"></a></div>
+        <div class="swiper-slide"> <a href="https://www.wvbhi.org/"><img alt="team" class="w-60   "
+              src="images/WVBHI-640w.webp"></a></div>
+      </div>
+    </div>
+  </section>
+
+  <section
+    class="text-gray-600  shapedividers_com-4839 body-font mt-12 pb-72 hidden lg:flex justify-center items-center">
+
+  </section>
+
+
+
+  <!--  -->
+  <footer class="text-white body-font bg-blu -pt-[76em]" id="contact">
+    <div class="container px-10 py-24 mx-auto">
+      <div class="flex flex-wrap md:text-left justify-center text-center order-first">
+        <div class="lg:w-1/3 md:w-1/2 w-full px-4">
+          <div class="list-none mb-10 text-center text-md flex justify-center items-center flex-col ">
+            <img src="images/Logo-121w.webp" class="w-40">
+            <p class=" text-xl text-white mt-5 font-Mon">Capital Physical <br> Therapy & Fitness</p>
+          </div>
+        </div>
+        <div class="lg:w-1/3 md:w-1/2 w-full px-4">
+          <h2 class="title-font font-medium tracking-widest text-xl mb-3 tce">CONTACT INFORMATION</h2>
+          <nav class="list-none mb-10 text-md">
+            <li>
+              <a href="tel:304-926-0913" class="leading-10"><i class="fa fa-phone mr-3" aria-hidden="true"></i>: (304)
+                926-0913</a>
+            </li>
+            <li>
+              <a href="mailto:mtaylor@cptaf.com" class="leading-10"><i class="fa fa-envelope mr-3" aria-hidden="true"></i>:
+                mtaylor@cptaf.com</a>
+            </li>
+            <li>
+              <a href="https://www.google.com/maps/place/Capital+Physical+Therapy+and+Fitness/@38.325116,-81.587103,13z/data=!4m5!3m4!1s0x0:0xdbbc4098f728d881!8m2!3d38.3251158!4d-81.5871032?hl=en"
+                class="leading-10"><i class="fa fa-map-marker mr-3" aria-hidden="true"></i>: 4216 MacCorkle Ave SE,<span
+                  class="block ml-8 -mt-3"> Charleston, WV 25304</span></a>
+            </li>
+            <li>
+              <a class="leading-10 text-Yelo block">Business Hours</a>
+              
+              <a class="leading-10 block">Mon – Fri 8:00 am – 4:30 pm</a>
+              <a class="leading-10"> Sat - Sun Closed</a>
+
+            </li>
+          </nav>
+        </div>
+        <div class="lg:w-1/3 md:w-1/2 w-full px-4">
+          <h2 class="title-font font-medium tracking-widest text-xl mb-3">OUR LOCATION</h2>
+          <div class=" inset-0 bg-gray-300">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d25042.090184866334!2d-81.60875768699906!3d38.31978008579839!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xdbbc4098f728d881!2sCapital%20Physical%20Therapy%20and%20Fitness!5e0!3m2!1sen!2sin!4v1658139235248!5m2!1sen!2sin"
+              width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+    <div class="bg-blu">
+      <div class="text-white flex-col flex justify-center items-center py-8">
+        <div>Copyright © Capital Physical Therapy & Fitness</div>
+        <div class="text-center">Designed, Managed and Hosted by <a href="https://kdetechnology.com/"
+            class="hover:opacity-50  text-yellow-500 text-xl font-semibold shadoww">KDE Technology</a></div>
+      </div>
+    </div>
+  </footer>
+
+  <!--  -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!--  -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/9.2.0/swiper-bundle.min.js" integrity="sha512-KBCt3sdFOcFtYTgEfE3uJckVpvPr1w8HPugyPgHFE/4iJOwhwj6eSaF27bDJTHRX2jyAFOgV3Ve9vOD97rbjrg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script src="js/rellax.min.js"></script>
+  <!-- Initialize Swiper -->
+  <script>
+    const rellax = new Rellax('.rellax')
+    $(window).on('scroll', function () {
+      if ($(window).scrollTop()) {
+        $('header').addClass('black');
+      } else {
+        $('header').removeClass('black');
+      }
+    })
+    // var swiper = new Swiper(".mySwiper", {
+    //   spaceBetween: 30,
+    //   effect: "fade",
+    //   loop: true,
+    //   autoplay: {
+    //     delay: 2500,
+    //     disableOnInteraction: true,
+    //   },
+    // });
+
+
+
+
+    var swiper2 = new Swiper(".mySwiper2", {
+      autoHeight: true,
+      loop: true,
+      slidesPerView: 1,
+      spaceBetween: 30,
+      keyboard: {
+        enabled: true,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+
+    var swiper4 = new Swiper(".mySwiper4", {
+      watchSlidesProgress: true,
+      slidesPerView: 4,
+      loop: true,
+      autoplay: {
+        delay: 2000,
+      },
+    });
+
+
+    // 
+
+    const targets = document.querySelectorAll(".js-show-on-scroll");
+
+    // npx tailwindcss -i input.css -o output.css --watch
+    // Callback for IntersectionObserver
+    const callback = function (entries) {
+      entries.forEach(entry => {
+        const animationType = entry.target.dataset.animateType;
+
+
+        // Is the element in the viewport?
+        if (entry.isIntersecting) {
+
+          // Add the fadeIn class:
+          entry.target.classList.remove("opacity-0");
+          entry.target.classList.add(animationType);
+
+        } else {
+
+          // Otherwise remove the fadein class
+          // entry.target.classList.remove("motion-safe:animate-enter-fade-l");
+        }
+      });
+    };
+
+    // Set up a new observer
+    const observer = new IntersectionObserver(callback);
+
+    // Loop through each of the target
+    targets.forEach(function (target) {
+      // Hide the element
+      target.classList.add("opacity-0");
+
+      // Add the element to the watcher
+      observer.observe(target);
+    });
+
+    function toggle(){
+      if (document.getElementById('menu').checked) {
+      
+          document.getElementById("menu").checked = false;
+        } else {
+         
+          document.getElementById("menu").checked = true;
+        }
+    }
+  </script>
+
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-YSMMRY1L1W"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-YSMMRY1L1W');
+</script>
+</body>
+
+</html>
