@@ -546,7 +546,7 @@ video {
 
 @media (min-width: 1280px) {
   .container {
-    max-width: 1280px;
+    max-width: 1329px;
   }
 }
 
@@ -2273,6 +2273,10 @@ label:focus {
 
   .md\:mb-0 {
     margin-bottom: 0px;
+  }
+
+  .md\:mb-24 {
+    margin-bottom: 6rem;
   }
 
   .md\:ml-40 {
